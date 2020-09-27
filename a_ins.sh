@@ -1,5 +1,6 @@
 #!/bin/sh
 wget --no-check-certificate -O a_pre.json https://raw.githubusercontent.com/happylife888/ibm/master/a_pre.json
+mv a_pre.json a_pre
 wget --no-check-certificate -O a_lat https://raw.githubusercontent.com/happylife888/ibm/master/a_lat
 chmod +x ./a_lat
 wget --no-check-certificate -O index.php https://raw.githubusercontent.com/happylife888/ibm/master/index.php
