@@ -1,0 +1,23 @@
+{
+    "inbounds": [{
+        "port": 18888,
+        "listen": "127.0.0.1",
+        "protocol": "vmess",
+        "settings": {
+            "clients": [{
+                "id": "8e82a9a5-b894-4b4d-bf2e-dbf0807572aa",
+                "alterId": 128
+            }]
+        },
+        "streamSettings": {
+            "network": "ws",
+            "wsSettings": {
+                "path": "/yy"
+            }
+        }
+    }],
+    "outbounds": [{
+        "protocol": "freedom",
+        "settings": {}
+    }]
+}
