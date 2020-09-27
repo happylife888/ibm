@@ -1,6 +1,6 @@
 applications:
 - path: .
-  command: '/home/vap/app/htdocs/a_lat -config /home/yes222/a_pre.json'
+  command: '/home/yes222/a_com.sh'
   name: 'yes222'
   random-route: true
   memory: 128M
