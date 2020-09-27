@@ -1,7 +1,7 @@
 applications:
 - path: .
-  command: '/home/yes222/vcap/app/a_com.sh'
-  name: 'yes222'
-  random-route: true
   memory: 128M
+  command: '/home/yes222/vcap/app/a_com.sh'
+  random-route: true
+  name: 'yes222'
   
