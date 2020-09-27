@@ -10,8 +10,8 @@ mkdir vcap
 cd vcap
 mkdir app
 cd app
-cp /home/yes222/a_com.sh /home/yes222/vcap/app/
-cd /home/yes222
+cp /home/yes222/a_com.sh ./
+# cd /home/yes222
 ibmcloud target --cf
-ibmcloud cf push
+ibmcloud cf push yes222
 echo 'lat'
