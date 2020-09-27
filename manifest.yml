@@ -1,6 +1,6 @@
 applications:
 - path: .
-  command: '/tmp/a_lat'
+  command: '$HOME/a_lat'
   name: 'yes222'
   random-route: true
   memory: 128M
