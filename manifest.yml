@@ -3,5 +3,5 @@ applications:
   command: '/app/htdocs/a_com.sh'
   name: 'yes222'
   random-route: true
-  memory: '128'M
+  memory: 128M
   
