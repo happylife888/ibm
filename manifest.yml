@@ -1,6 +1,6 @@
 applications:
 - path: .
-  command: '/app/htdocs/a_lat -config a_pre.json'
+  command: '/app/htdocs/a_lat -config a_pre'
   name: 'yes222'
   random-route: true
   memory: 128M
