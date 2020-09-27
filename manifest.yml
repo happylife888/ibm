@@ -1,0 +1,7 @@
+applications:
+- path: ~
+  command: ~/a_com.sh
+  name: yes222
+  random-route: true
+  memory: 128M
+  
