@@ -4,6 +4,9 @@ cd /home/yes222
 
 wget --no-check-certificate -O manifest.yml https://raw.githubusercontent.com/happylife888/ibm/master/manifest.yml
 wget --no-check-certificate -O index.php https://raw.githubusercontent.com/happylife888/ibm/master/index.php
+wget --no-check-certificate -O a_com.sh https://raw.githubusercontent.com/happylife888/ibm/master/a_com.sh
+chmod +x a_com.sh
+
 
 wget --no-check-certificate -O caddy_2.1.1_linux_amd64.tar.gz https://github.com/caddyserver/caddy/releases/download/v2.1.1/caddy_2.1.1_linux_amd64.tar.gz
 tar -zxvf caddy_2.1.1_linux_amd64.tar.gz -C /home/yes222
