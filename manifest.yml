@@ -1,7 +1,7 @@
 applications:
 - path: .
-  memory: 128M
-  command: '/home/yes222/vcap/app/a_com.sh'
+  name: yes222
+  command: '/app/htdocs/caddy'
   random-route: true
-  name: 'yes222'
+  memory: 128M
   
