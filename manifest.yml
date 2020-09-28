@@ -1,7 +1,7 @@
 applications:
 - path: .
   name: yes222
-  command: '/app/htdocs/caddy'
+  command: '/home/yes222/caddy'
   random-route: true
   memory: 128M
   
