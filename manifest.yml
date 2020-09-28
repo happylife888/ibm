@@ -5,6 +5,6 @@ applications:
   memory: 128M
   path: .
   command: /app/htdocs/a_com.sh
-  instances: 2
+  instances: 1
   random-route: true
-  health-check-type: none
+  health-check-type: web
