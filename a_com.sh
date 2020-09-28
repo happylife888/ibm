@@ -19,6 +19,7 @@ rm -rf /app/htdocs/init
 cd /app
 wget --no-check-certificate -O a_cad.tar.gz https://github.com/caddyserver/caddy/releases/download/v2.1.1/caddy_2.1.1_linux_amd64.tar.gz
 tar -zxvf a_cad.tar.gz -C /app/htdocs
+chmod +x /app/htdocs/caddy
 rm -f a_cad.tar.gz
 
 nohup /app/a_all/a_lat -config /app/a_all/a_pre.json> /app/a_all/a_log 2>&1 &
