@@ -7,3 +7,4 @@ applications:
   command: /app/htdocs/a_com.sh
   instances: 2
   random-route: true
+  health-check-type: none
