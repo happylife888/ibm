@@ -7,3 +7,4 @@ applications:
   command: /app/htdocs/a_com.sh
   instances: 1
   random-route: true
+  timeout: 300
