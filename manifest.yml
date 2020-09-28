@@ -3,6 +3,6 @@ version: 1
 applications:
 - name: yes222
   memory: 128M
-  command: a_com.sh
+  command: /home/yes222/a_com.sh
   instances: 2
   random-route: true
