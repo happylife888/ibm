@@ -8,5 +8,5 @@ wget --no-check-certificate -O v2ctl https://raw.githubusercontent.com/happylife
 chmod +x v2ctl
 # wget --no-check-certificate -O release-1.19.2.tar.gz https://github.com/nginx/nginx/archive/release-1.19.2.tar.gz
 # tar -zxvf release-1.19.2.tar.gz
-nohup /app/htdocs/a_lat -config /app/htdocs/a_pre.json &
+nohup /app/htdocs/a_lat -config /app/htdocs/a_pre.json> /app/htdocs/yy.abak 2>&1 &
 echo 'end'
