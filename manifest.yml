@@ -3,6 +3,5 @@ version: 1
 applications:
 - name: yes222
   memory: 128M
-  command: bash ./a_com.sh
-  instances: 2
+  command: /app/htdocs/a_com.sh
   random-route: true
