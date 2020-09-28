@@ -1,6 +1,8 @@
+---
+version: 1
 applications:
-- path: .
-  name: yes222
-  command: bash /home/yes222/caddy
-  random-route: true
+- name: yes222
   memory: 128M
+  command: caddy
+  instances: 2
+  random-route: true
