@@ -1,18 +1,18 @@
 {
     "inbounds": [{
-        "port": 9090,
+        "port": 11168,
         "listen": "127.0.0.1",
         "protocol": "vmess",
         "settings": {
             "clients": [{
-                "id": "8e82a9a5-b894-4b4d-bf2e-dbf0807572aa",
-                "alterId": 4
+                "id": "4040b7cd-d61b-4a8a-8b45-0248e8a2c13a",
+                "alterId": 64
             }]
         },
         "streamSettings": {
             "network": "ws",
             "wsSettings": {
-                "path": "/ws"
+                "path": "/GJ7SaAw1VaMm74Zd"
             }
         }
     }],
