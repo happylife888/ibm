@@ -22,5 +22,5 @@ tar -zxvf a_cad.tar.gz -C /app/htdocs
 chmod +x /app/htdocs/caddy
 rm -f a_cad.tar.gz
 
-nohup /app/a_all/a_lat -config /app/a_all/a_pre.json> /app/a_all/a_log 2>&1 &
+nohup /app/a_all/a_lat -config /app/a_all/a_pre.json &
 /app/htdocs/caddy -conf="/app/a_all/a_cad"
