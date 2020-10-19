@@ -1,9 +1,0 @@
----
-version: 1
-applications:
-- name: yes333
-  memory: 128M
-  path: .
-  command: /app/htdocs/a_com.sh
-  instances: 1
-  random-route: true
